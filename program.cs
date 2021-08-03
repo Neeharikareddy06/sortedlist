@@ -17,7 +17,9 @@ public static void Main()
   //Displaying the elements of the sorted list by using keys
   for (int r = 0; r <List.Count; r++)
     {
-    Console.WriteLine("{0} and {1}");
+    Console.WriteLine("{0} and {1}",
+    List.GetKey(r),
+    List.GetByIndex(r));
     }
   }
 }
